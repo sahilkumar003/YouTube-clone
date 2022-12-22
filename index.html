@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/Hamburger_icon.svg.png">
+        <img class="youtube-logo" src="icons/YouTube_Logo_2017.svg.png">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" 
+        placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.png">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/outline_mic_black_24dp.png">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/video_call_FILL0_wght400_GRAD0_opsz48.png">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-app-container">
+          <img class="youtube-apps-icon" src="icons/baseline_apps_black_24dp.png">
+          <div class="tooltip">Apps</div>
+        </div>
+        <div class="notifications-icon-conatiner">
+          <img class="notifications-icon" src="icons/outline_notifications_black_24dp.png">
+          <div class="notifications-count">
+            3
+          </div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-pic" src="channelProfilepic/channels5_profile.jpg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/baseline_home_black_24dp.png">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore_FILL0_wght400_GRAD0_opsz48.png">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions_FILL0_wght400_GRAD0_opsz48.png">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube.ori.png">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.png">
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/video_library_FILL0_wght400_GRAD0_opsz48.png">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY&t=11s" target="_blank" class="video-title-link"> 
+              <img class="thumbnail" src="thumbnail/thumbnail-1.webp">
+            </a>
+            <div class="video-time">
+              14:20
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://youtube.com/c/mkbhd" target="_blank">
+                  <img class="profile-pic" src="channelProfilepic/channels4_profile.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channelProfilepic/channels4_profile.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Marques Brownlee
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      15M subscribers
+                    </div>
+                  </div>
+            </div>
+              </div>
+            </div>
+  
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY&t=11s" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+              </a>
+              <p class="video-author">
+                Marques Brownlee
+              </p>
+              <p class="video-stats">
+                3.4M views &#183; 6 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=G-WO-z-QuWI" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnail/G-WO-z-QuWI-HD.png">
+            </a>
+            <div class="video-time">
+              12:47
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@kurzgesagt" target="_blank">
+                  <img class="profile-pic" src="channelprofilepic/unnamed.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channelprofilepic/unnamed.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Kurzgesagt &#8211; In a Nutshell 
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      19.7M subscribers
+                    </div>
+                  </div>
+            </div>
+              </div>
+            </div>
+    
+            <div class="video-info">
+             <a href="https://www.youtube.com/watch?v=G-WO-z-QuWI" target="_blank" class="video-title-link">
+              <p class="video-title">
+                How To Terraform Venus (Quickly)
+              </p>
+             </a>
+              <p class="video-author">
+                Kurzgesagt &#8211; In a Nutshell 
+              </p>
+              <p class="video-stats">
+                12M views &#183; 1 year ago
+              </p>
+            </div> 
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=h667P20VFO4&t=1s" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnail/2.webp">
+            </a>
+            <div class="video-time">
+              14:05
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@ApertureScience" target="_blank">
+                  <img class="profile-pic" src="channelprofilepic/2.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channelprofilepic/2.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Aperture 
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      1.71M subscribers
+                    </div>
+                  </div>
+            </div>
+              </div>
+            </div>
+    
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=h667P20VFO4&t=1s" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  Everything We Don't Know
+                </p>
+              </a>
+              <p class="video-author">
+                Aperture 
+              </p>
+              <p class="video-stats">
+                2M views &#183; 1 year ago 
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=HPJKxAhLw5I" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnail/HPJKxAhLw5I-HD.png">
+            </a>
+            <div class="video-time">
+              7:22
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@MrBeast" target="_blank">
+                  <img class="profile-pic" src="channelprofilepic/7.jpg">
+                </a>
+                  <div class="channel-tooltip">
+                    <img class="channel-tooltip-picture" src="channelprofilepic/7.jpg">
+                    <div>
+                      <div class="channel-tooltip-name">
+                        MrBeast 
+                      </div>
+                      <div class="channel-tooltip-stats">
+                        117M subscribers
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+    
+            <div class="video-info">
+             <a href="https://www.youtube.com/watch?v=HPJKxAhLw5I" target="_blank" class="video-title-link">
+              <p class="video-title">
+                Planting 20,000,000 Trees, My Biggest Project Ever!
+              </p>
+             </a>
+              <p class="video-author">
+                MrBeast 
+              </p>
+              <p class="video-stats">
+                77M views &#183; 3 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=8jPQjjsBbIc" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnail/8jPQjjsBbIc-HD.png">
+            </a>
+            <div class="video-time">
+              12:20
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@TEDxTalks" target="_blank">
+                  <img class="profile-pic" src="channelprofilepic/9.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channelprofilepic/9.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      TEDx Talks 
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      37M subscribers
+                    </div>
+                  </div>
+            </div>
+              </div>
+            </div>
+    
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=8jPQjjsBbIc" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  How to stay calm when you know you'll be stressed | Daniel Levitin
+                </p>
+              </a>
+              <p class="video-author">
+                TEDx Talks
+              </p>
+              <p class="video-stats">
+                14M views &#183; 7 years ago 
+              </p>
+            </div>
+          </div>
+        </div>
+
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=933PZFO56P0&t=2s" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnail/3.webp">
+            </a>
+            <div class="video-time">
+              21:31
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@KunalKushwaha" target="_blank">
+                  <img class="profile-pic" src="channelProfilepic/3.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channelProfilepic/3.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Kunal Kushwaha
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      335k subscribers
+                    </div>
+                  </div>
+            </div>
+              </div>
+            </div>
+    
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=933PZFO56P0&t=2s" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  Getting Remote Jobs via Open Source & Learning in Public
+                </p>
+              </a>
+              <p class="video-author">
+                Kunal Kushwaha
+              </p>
+              <p class="video-stats">
+                3.1K views &#183; 4 hours ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=kTp5xUtcalw" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnail/4.webp">
+            </a>
+            <div class="video-time">
+              5:56:37
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@freecodecamp" target="_blank">
+                  <img class="profile-pic" src="channelprofilepic/4.jpg">
+                </a>
+                  <div class="channel-tooltip">
+                    <img class="channel-tooltip-picture" src="channelprofilepic/4.jpg">
+                    <div>
+                      <div class="channel-tooltip-name">
+                        freeCodeCamp.org
+                      </div>
+                      <div class="channel-tooltip-stats">
+                        6.83M subscribers
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+    
+            <div class="video-info">
+             <a href="https://www.youtube.com/watch?v=kTp5xUtcalw" target="_blank" class="video-title-link">
+              <p class="video-title">
+                Docker Containers and Kubernetes Fundamentals &#8211; Full Hands-On Course 
+              </p>
+             </a>
+              <p class="video-author">
+                freeCodeCamp.org
+              </p>
+              <p class="video-stats">
+                134K views &#183; 1 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=h2aWYjSA1Jc" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnail/h2aWYjSA1Jc-HD.png">
+            </a>
+            <div class="video-time">
+              1:41:54
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@hubermanlab" target="_blank">
+                  <img class="profile-pic" src="channelprofilepic/6.jpg">
+                </a>
+                  <div class="channel-tooltip">
+                    <img class="channel-tooltip-picture" src="channelprofilepic/6.jpg">
+                    <div>
+                      <div class="channel-tooltip-name">
+                        Andrew Huberman 
+                      </div>
+                      <div class="channel-tooltip-stats">
+                        1.93M subscribers
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+    
+            <div class="video-info">
+             <a href="https://www.youtube.com/watch?v=h2aWYjSA1Jc" target="_blank" class="video-title-link">
+              <p class="video-title">
+                Sleep Toolkit: Tools for Optimizing Sleep & Sleep-Wake Timing | Huberman Lab Podcast #84
+              </p>
+             </a>
+              <p class="video-author">
+                Andrew Huberman 
+              </p>
+              <p class="video-stats">
+                568k views &#183; 4 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=0e3GPea1Tyg" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnail/0e3GPea1Tyg-HD.png">
+            </a>
+            <div class="video-time">
+              25:41
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@MrBeast" target="_blank">
+                  <img class="profile-pic" src="channelprofilepic/7.jpg">
+                </a>
+                  <div class="channel-tooltip">
+                    <img class="channel-tooltip-picture" src="channelprofilepic/7.jpg">
+                    <div>
+                      <div class="channel-tooltip-name">
+                        MrBeast 
+                      </div>
+                      <div class="channel-tooltip-stats">
+                        117M subscribers
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+    
+            <div class="video-info">
+             <a href="https://www.youtube.com/watch?v=0e3GPea1Tyg" target="_blank" class="video-title-link">
+              <p class="video-title">
+                $456,000 Squid Game In Real Life!
+              </p>
+             </a>
+              <p class="video-author">
+                MrBeast 
+              </p>
+              <p class="video-stats">
+                315M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=bMknfKXIFA8" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnail/bMknfKXIFA8-HD.png">
+            </a>
+            <div class="video-time">
+              11:52:27
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@freecodecamp" target="_blank">
+                  <img class="profile-pic" src="channelprofilepic/4.jpg">
+                </a>
+                  <div class="channel-tooltip">
+                    <img class="channel-tooltip-picture" src="channelprofilepic/4.jpg">
+                    <div>
+                      <div class="channel-tooltip-name">
+                        freeCodeCamp.org
+                      </div>
+                      <div class="channel-tooltip-stats">
+                        6.83M subscribers
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+    
+            <div class="video-info">
+             <a href="https://www.youtube.com/watch?v=bMknfKXIFA8" target="_blank" class="video-title-link">
+              <p class="video-title">
+                React Course - Beginner's Tutorial for React JavaScript Library [2022]
+              </p>
+             </a>
+              <p class="video-author">
+                freeCodeCamp.org
+              </p>
+              <p class="video-stats">
+                2M views &#183; 11 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=v8RooLNqmmA" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnail/1.webp">
+            </a>
+            <div class="video-time">
+              4:14
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@ABHIKAREVIEW" target="_blank">
+                  <img class="profile-pic" src="channelProfilepic/channels4_profile1.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channelProfilepic/channels4_profile1.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      ABHI KA REVIEW
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      1M subscribers
+                    </div>
+                  </div>
+            </div>
+              </div>
+            </div>
+    
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=v8RooLNqmmA" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  Top 5 Web/TV Series in Hindi/Eng on Netflix, Amazon Prime, YouTube
+                </p>
+              </a>
+              <p class="video-author">
+                ABHI KA REVIEW
+              </p>
+              <p class="video-stats">
+                20K views &#183; 4 hours ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=FfWtIaDtfYk" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnail/FfWtIaDtfYk-HD.png">
+            </a>
+            <div class="video-time">
+              11:22
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@kurzgesagt" target="_blank">
+                  <img class="profile-pic" src="channelprofilepic/unnamed.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channelprofilepic/unnamed.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Kurzgesagt &#8211; In a Nutshell 
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      19.7M subscribers
+                    </div>
+                  </div>
+            </div>
+              </div>
+            </div>
+    
+            <div class="video-info">
+             <a href="https://www.youtube.com/watch?v=FfWtIaDtfYk" target="_blank" class="video-title-link">
+              <p class="video-title">
+                Let’s Travel to The Most Extreme Place in The Universe
+              </p>
+             </a>
+              <p class="video-author">
+                Kurzgesagt &#8211; In a Nutshell 
+              </p>
+              <p class="video-stats">
+                7.3M views &#183; 2 months ago
+              </p>
+            </div> 
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=MEiq0oCUb_8" target="_blank" class="video-title-link"> 
+              <img class="thumbnail" src="thumbnail/MEiq0oCUb_8-HD.png">
+            </a>
+            <div class="video-time">
+              12:44
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://youtube.com/c/mkbhd" target="_blank">
+                  <img class="profile-pic" src="channelProfilepic/channels4_profile.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channelProfilepic/channels4_profile.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Marques Brownlee
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      15M subscribers
+                    </div>
+                  </div>
+            </div>
+              </div>
+            </div>
+  
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=MEiq0oCUb_8" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  Dope Tech: The Most Extreme Gaming Monitor!
+                </p>
+              </a>
+              <p class="video-author">
+                Marques Brownlee
+              </p>
+              <p class="video-stats">
+                3.5M views &#183; 3 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=fU4o_BKaUZE" target="_blank" class="video-title-link"> 
+              <img class="thumbnail" src="thumbnail/fU4o_BKaUZE-HD.png">
+            </a>
+            <div class="video-time">
+              36:18
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@TraversyMedia" target="_blank">
+                  <img class="profile-pic" src="channelProfilepic/8.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channelProfilepic/8.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Traversy Media 
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      2M subscribers
+                    </div>
+                  </div>
+            </div>
+              </div>
+            </div>
+  
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=fU4o_BKaUZE" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  Build An AI Image Generator With OpenAI & Node.js
+                </p>
+              </a>
+              <p class="video-author">
+                Traversy Media 
+              </p>
+              <p class="video-stats">
+                34k views &#183; 4 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=IPvYjXCsTg8" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnail/IPvYjXCsTg8-HD.png">
+            </a>
+            <div class="video-time">
+              4:06:55
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@KunalKushwaha" target="_blank">
+                  <img class="profile-pic" src="channelProfilepic/3.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channelProfilepic/3.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Kunal Kushwaha
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      335k subscribers
+                    </div>
+                  </div>
+            </div>
+              </div>
+            </div>
+    
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=IPvYjXCsTg8" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  Computer Networking Full Course - OSI Model Deep Dive with Real Life Examples
+                </p>
+              </a>
+              <p class="video-author">
+                Kunal Kushwaha
+              </p>
+              <p class="video-stats">
+                550K views &#183; 10 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=Wcs2PFz5q6g" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnail/Wcs2PFz5q6g-HD.png">
+            </a>
+            <div class="video-time">
+              1:50:38
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@hubermanlab" target="_blank">
+                  <img class="profile-pic" src="channelprofilepic/6.jpg">
+                </a>
+                  <div class="channel-tooltip">
+                    <img class="channel-tooltip-picture" src="channelprofilepic/6.jpg">
+                    <div>
+                      <div class="channel-tooltip-name">
+                        Andrew Huberman 
+                      </div>
+                      <div class="channel-tooltip-stats">
+                        1.93M subscribers
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+    
+            <div class="video-info">
+             <a href="https://www.youtube.com/watch?v=Wcs2PFz5q6g" target="_blank" class="video-title-link">
+              <p class="video-title">
+                The Science of Making & Breaking Habits | Huberman Lab Podcast #53
+              </p>
+             </a>
+              <p class="video-author">
+                Andrew Huberman 
+              </p>
+              <p class="video-stats">
+                2.4M views &#183; 11 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=EFkyxzJtiv4" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnail/EFkyxzJtiv4-HD.png">
+            </a>
+            <div class="video-time">
+              12:51
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@ApertureScience" target="_blank">
+                  <img class="profile-pic" src="channelprofilepic/2.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channelprofilepic/2.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Aperture 
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      1.71M subscribers
+                    </div>
+                  </div>
+            </div>
+              </div>
+            </div>
+    
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=EFkyxzJtiv4" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  Stoicism: Become Undefeatable
+                </p>
+              </a>
+              <p class="video-author">
+                Aperture 
+              </p>
+              <p class="video-stats">
+                6.2M views &#183; 1 year ago 
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=LNHBMFCzznE" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnail/LNHBMFCzznE-HD.png">
+            </a>
+            <div class="video-time">
+              14:24
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@TEDxTalks" target="_blank">
+                  <img class="profile-pic" src="channelprofilepic/9.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channelprofilepic/9.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      TEDx Talks 
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      37M subscribers
+                    </div>
+                  </div>
+            </div>
+              </div>
+            </div>
+    
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=LNHBMFCzznE" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  After watching this, your brain will not be the same | Lara Boyd | TEDxVancouver
+                </p>
+              </a>
+              <p class="video-author">
+                TEDx Talks
+              </p>
+              <p class="video-stats">
+                36M views &#183; 6 years ago 
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=MusIvEKjqsc" target="_blank" class="video-title-link"> 
+              <img class="thumbnail" src="thumbnail/MusIvEKjqsc-HD.png">
+            </a>
+            <div class="video-time">
+              13:03
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@TraversyMedia" target="_blank">
+                  <img class="profile-pic" src="channelProfilepic/8.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channelProfilepic/8.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Traversy Media 
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      2M subscribers
+                    </div>
+                  </div>
+            </div>
+              </div>
+            </div>
+  
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=MusIvEKjqsc" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  3 Alternatives for Heroku's Free Tier - Full Stack & API Hosting
+                </p>
+              </a>
+              <p class="video-author">
+                Traversy Media 
+              </p>
+              <p class="video-stats">
+                107k views &#183; 3 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+       <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=8jPQjjsBbIc" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnail/8jPQjjsBbIc-HD.png">
+            </a>
+            <div class="video-time">
+              12:20
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@TEDxTalks" target="_blank">
+                  <img class="profile-pic" src="channelprofilepic/9.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channelprofilepic/9.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      TEDx Talks 
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      37M subscribers
+                    </div>
+                  </div>
+            </div>
+              </div>
+            </div>
+    
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=8jPQjjsBbIc" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  How to stay calm when you know you'll be stressed | Daniel Levitin
+                </p>
+              </a>
+              <p class="video-author">
+                TEDx Talks
+              </p>
+              <p class="video-stats">
+                14M views &#183; 7 years ago 
+              </p>
+            </div>
+          </div>
+        </div>
+
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=933PZFO56P0&t=2s" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnail/3.webp">
+            </a>
+            <div class="video-time">
+              21:31
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@KunalKushwaha" target="_blank">
+                  <img class="profile-pic" src="channelProfilepic/3.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channelProfilepic/3.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Kunal Kushwaha
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      335k subscribers
+                    </div>
+                  </div>
+            </div>
+              </div>
+            </div>
+    
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=933PZFO56P0&t=2s" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  Getting Remote Jobs via Open Source & Learning in Public
+                </p>
+              </a>
+              <p class="video-author">
+                Kunal Kushwaha
+              </p>
+              <p class="video-stats">
+                3.1K views &#183; 4 hours ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=kTp5xUtcalw" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnail/4.webp">
+            </a>
+            <div class="video-time">
+              5:56:37
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@freecodecamp" target="_blank">
+                  <img class="profile-pic" src="channelprofilepic/4.jpg">
+                </a>
+                  <div class="channel-tooltip">
+                    <img class="channel-tooltip-picture" src="channelprofilepic/4.jpg">
+                    <div>
+                      <div class="channel-tooltip-name">
+                        freeCodeCamp.org
+                      </div>
+                      <div class="channel-tooltip-stats">
+                        6.83M subscribers
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+    
+            <div class="video-info">
+             <a href="https://www.youtube.com/watch?v=kTp5xUtcalw" target="_blank" class="video-title-link">
+              <p class="video-title">
+                Docker Containers and Kubernetes Fundamentals &#8211; Full Hands-On Course 
+              </p>
+             </a>
+              <p class="video-author">
+                freeCodeCamp.org
+              </p>
+              <p class="video-stats">
+                134K views &#183; 1 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=h2aWYjSA1Jc" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnail/h2aWYjSA1Jc-HD.png">
+            </a>
+            <div class="video-time">
+              1:41:54
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@hubermanlab" target="_blank">
+                  <img class="profile-pic" src="channelprofilepic/6.jpg">
+                </a>
+                  <div class="channel-tooltip">
+                    <img class="channel-tooltip-picture" src="channelprofilepic/6.jpg">
+                    <div>
+                      <div class="channel-tooltip-name">
+                        Andrew Huberman 
+                      </div>
+                      <div class="channel-tooltip-stats">
+                        1.93M subscribers
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+    
+            <div class="video-info">
+             <a href="https://www.youtube.com/watch?v=h2aWYjSA1Jc" target="_blank" class="video-title-link">
+              <p class="video-title">
+                Sleep Toolkit: Tools for Optimizing Sleep & Sleep-Wake Timing | Huberman Lab Podcast #84
+              </p>
+             </a>
+              <p class="video-author">
+                Andrew Huberman 
+              </p>
+              <p class="video-stats">
+                568k views &#183; 4 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+       <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=s8QYxmpuyxg" target="_blank" class="video-title-link"> 
+              <img class="thumbnail" src="thumbnail/s8QYxmpuyxg-HD.png">
+            </a>
+            <div class="video-time">
+              4:00
+            </div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@AvrilLavigneVEVO" target="_blank">
+                  <img class="profile-pic" src="channelProfilepic/10.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channelProfilepic/10.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Avril Lavigne
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      12.1M subscribers
+                    </div>
+                  </div>
+            </div>
+              </div>
+            </div>
+  
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=s8QYxmpuyxg" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  Avril Lavigne - My Happy Ending (Official Video - Clean)
+                </p>
+              </a>
+              <p class="video-author">
+                Avril Lavigne
+              </p>
+              <p class="video-stats">
+                233M views &#183; 12 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
